@@ -46,6 +46,10 @@ perlu diperhatikan sebelumnya untuk membuat file requirements.txt dan isi packag
 
 bisa menggunakan perintah "pip install streamlit opencv-python pillow numpy"
 
+11. mengaktifkan atau menjalankan kode tersebut di streamlit
+anda bisa menggunakan perintah ini "streamlit run nama_project.py"
+sebagai contohnya 'streamlit run hello-world.py' setelah itu enter
+
 ##- Untuk stopping dari running streamlit bisa menekan tombol CTRL+C di CMD
 
 ##- Untuk menonaktifkan virtualenv bisa menggunakan perintah ini "deactivate"
