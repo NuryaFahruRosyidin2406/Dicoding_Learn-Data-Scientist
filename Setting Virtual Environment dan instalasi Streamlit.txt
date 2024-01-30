@@ -1,0 +1,62 @@
+Dalam pembelajaran ini kita menggunakan Streamlit
+untuk informasi pemasangan bisa dilihat di link berikut ini
+https://docs.streamlit.io/library/get-started/installation
+
+tahap-tahap yang perlu diperhatikan ialah
+1. sebelum memulai terlebih dahulu cek apakah python dan pip sudah terpasang di laptop dengan menggunakan perintah CMD:
+untuk python "py --version"
+untuk pip "py -m pip --version"
+Jika belum terpasang, silahkan install sesuai OS masing-masing
+
+2. setelahnya setting virtual environment pada laptop kalian. di streamlit virtual environment yang dapat digunakan seperti pipenv, poetry, venv, virtualenv, dan conda. pada kali ini kita akan memasang dan menggunakan virtualenv. perintah yang digunakan untuk install virtualenv di cmd kita dapat menjalankan perintah "py -m pip install virtualenv"
+
+3. setelah instalasi bisa cek versi virtualenv yang digunakan pada laptop dengan menggunakan perintah "py -m virtualenv --version"
+
+4. Setelah vitrualenv telah terpasang, langkah selanjutnya membuat virtual environment baru pada project, contohnya seperti "py -m virtualenv nama_project".
+
+5. perlu diingat, sebelum membuat virtual environment baru sebaiknya buat di folder project yang sedang/akan dikerjakan.
+
+6. ok setelah itu, cek lokasi tempat virtualenv terpasang. contohnya seperti ini "D:\Pembelajaran_lewat_codepolitan\Belajar_Deploy_Machine_Learning_Ke_Cloud\Project_Face_Detection>"
+
+lalu untuk menjalankan virtualenv, carilah lokasi file "activate.bat"
+semisal contohnya seperti ini
+"D:\Pembelajaran_lewat_codepolitan\Belajar_Deploy_Machine_Learning_Ke_Cloud\Project_Face_Detection\Project_Face_Detection\Scripts\activate.bat"
+
+7. setelahnya ketemu alamat path-nya, tuliskan alamat path tersebut, contohnya seperti ini
+"D:\Pembelajaran_lewat_codepolitan\Belajar_Deploy_Machine_Learning_Ke_Cloud\Project_Face_Detection>D:\Pembelajaran_lewat_codepolitan\Belajar_Deploy_Machine_Learning_Ke_Cloud\Project_Face_Detection\Project_Face_Detection\Scripts\activate.bat"
+
+lalu enter
+
+8. setelah itu, virtualenv telah aktif dengan otput keluarannya seperti ini "(Project_Face_Detection) D:\Pembelajaran_lewat_codepolitan\Belajar_Deploy_Machine_Learning_Ke_Cloud\Project_Face_Detection>"
+
+9. untuk cek apakah virtualenv telah aktif atau belum, bisa gunakan perintah ini "pip list"
+setelah itu, keluarannya akan seperti ini:
+Package    Version
+---------- -------
+pip        23.1.2
+setuptools 67.8.0
+wheel      0.40.0
+ini yang menandakan virtualenv telah aktif
+
+10. setelah virtualenv aktif
+- Langkah berikutnya yaitu instalasi Streamlit, opencv-python, Pillow, numpy
+
+atau bisa pakai install packages sekaligus dengan 'pip install -r requirements.txt'
+perlu diperhatikan sebelumnya untuk membuat file requirements.txt dan isi packages apa yang mau diinstal
+
+bisa menggunakan perintah "pip install streamlit opencv-python pillow numpy"
+
+##- Untuk stopping dari running streamlit bisa menekan tombol CTRL+C di CMD
+
+##- Untuk menonaktifkan virtualenv bisa menggunakan perintah ini "deactivate"
+
+##- Untuk menghapus atau menghilangkan virtualenv yang telah kita buat, bisa mengikuti langkah ini:
+
+-- Pastikan virtualenv tersebut tidak sedang aktif. Jika Anda masih berada dalam mode virtualenv, nonaktifkan terlebih dahulu dengan perintah deactivate seperti yang dijelaskan sebelumnya.
+
+-- Buka Command Prompt (CMD) atau PowerShell dan pastikan Anda berada di luar direktori virtualenv yang ingin dihapus. Misalnya, jika virtualenv berada di D:\Pembelajaran_lewat_codepolitan\Belajar_Deploy_Machine_Learning_Ke_Cloud\Project_Face_Detection, pastikan Anda berada di direktori lain seperti D:\.
+
+-- Ketikkan perintah berikut di CMD atau PowerShell dan tekan Enter untuk menghapus virtualenv:
+"rmdir /s Project_Face_Detection"
+Perintah di atas akan menghapus seluruh direktori virtualenv beserta isinya.
+
