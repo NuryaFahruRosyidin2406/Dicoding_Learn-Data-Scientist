@@ -15,5 +15,5 @@
 ## Run steamlit app
 
 ```
-5. Selanjutnya, run streamlit dengan perintah <strong>streamlit run submission_project_analisis_data.py<strong>
+5. Selanjutnya, run streamlit dengan perintah **streamlit run submission_project_analisis_data.py**
 ```
