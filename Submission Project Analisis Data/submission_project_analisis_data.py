@@ -25,7 +25,8 @@ def create_sum_order_items_df(df):
     return sum_order_items_df
 
 # load berkas all_data.csv sebagai sebuah DataFrame
-all_df = pd.read_csv("https://github.com/NuryaFahruRosyidin2406/Dicoding_Learn-Data-Scientist/raw/main/Submission%20Project%20Analisis%20Data/all_data.csv")
+# all_df = pd.read_csv("https://github.com/NuryaFahruRosyidin2406/Dicoding_Learn-Data-Scientist/raw/main/Submission%20Project%20Analisis%20Data/all_data.csv")
+all_df = pd.read_csv("all_data.csv")
 
 # Kolom order_date inilah yang akan menjadi kunci dalam pembuatan filter nantinya.
 datetime_columns = ["order_approved_at", "order_estimated_delivery_date"]
